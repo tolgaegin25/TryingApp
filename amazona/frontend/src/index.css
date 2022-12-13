@@ -9,8 +9,13 @@ body {
 .site-container {
   min-height: 100vh;
 }
+
 main {
   flex: 1;
+}
+.btn-primary {
+  background-color: #f0c040;
+  color: #000;
 }
 .products {
   display: flex;
@@ -27,4 +32,11 @@ main {
 }
 .product-info {
   padding: 1rem;
+}
+.rating span {
+  color: #ffc000;
+}
+
+.img-large {
+  max-width: 100%;
 }
