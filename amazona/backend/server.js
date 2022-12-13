@@ -11,7 +11,7 @@ app.get('/api/products/slug/:slug', (req, res) => {
   if (product) {
     res.send(product);
   } else {
-    res.status(404).send({ messega: 'Product Not Found' });
+    res.status(404).send({ message: 'Product Not Found' });
   }
 });
 
